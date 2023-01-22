@@ -1,93 +1,71 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta property="og:title" content="르탄이 - 프로필 링크" />
-        <meta property="og:description" content="어서와 코딩은 처음이지?" />
-        <meta property="og:image" content="공유할 이미지" />
-        <title>르탄이 - 프로필 링크</title>
-    </head>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2023년 버킷리스트</title>
     <style>
-        @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+        @import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Gowun+Dodum&display=swap');
+
         * {
-            font-family: "Pretendard",serif;
+            font-family: 'East Sea Dokdo', cursive;
         }
-        body{
-            background-color: rgb(39, 39, 39);
-        }
-        .profile{
-            width: 100px;
-            height: 100px;
 
-            border-radius: 100%;
 
-            border: 2px solid white;
+    .title {
+    color: white;
+    background-color: tomato;
+    font-size: 24px;
+    padding: 4px 14px;
+    border-radius: 8px;
+    }
 
-            background-image: url(KakaoTalk_20210516_150408008_03.jpg);
-            background-position: center;
-            background-size: cover;
-        }
-        .main {
-            color: white;
-            font-size: 20px;
+    .bg {
+    width: 360px;
+    background-image:
+    url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bg-grid.png");
+    }
 
-            margin-top: 30px;
-            margin-bottom: 10px;
-        }
-        .sub{
-            color: white;
-            font-size: 14px;
+    .msg {
+    font-weight: bold;
+    }
 
-            
-            margin-top: 0px;
-            margin-bottom: 30px;
-        }
-        .wrap {
-            width: 300px;
-            margin: 30px auto 0px auto;
-            
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .wrap > a {
-            width: 300px;
-            height: 50px;
+    .bucket {
+    width: 160px;
+    height: 160px;
+    }
 
-            background-color: white;
-            border-radius: 8px;
+    .img1 {
+    background-image:
+    url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-red.png");
+    background-size: cover;
+    background-position: center;
+    }
 
-            margin-bottom: 10px;
-            
-            font-size: 14px;
-            font-weight: bold;
-            color:rgb(39, 39, 39);
-
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-
-            text-decoration: none;
-
-            box-shadow: 3px 3px 5px 0px black;
-        }
-        .wrap > a:hover {
-            background-color: #f2f2f2;
-        }
+    .img2 {
+    background-image:
+    url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-lightred.png");
+    background-size: cover;
+    background-position: center;
+    }
     </style>
-    <body>
-        <div class="wrap">
-            <div class="profile"></div>
-            <h1 class="main">하초코</h1>
-            <p class="sub">초코 똥구래 귀여웡</p>
-            <a target="_blank" href="https://spartacodingclub.kr/">2018.12.13</a>
-            <a target="_blank" href="https://hanghae99.spartacodingclub.kr/">수컷</a>
-            <a target="_blank" href="https://chang.spartacodingclub.kr/">샴고양이</a>
-            <a target="_blank" href="https://ddingdong.spartacodingclub.kr/">야옹</a>
-        </div>
-    </body>
+    <link rel="stylesheet" type="text/css" href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/sparta-bucket2.css">
+</head>
+
+<body class="bg-t3 center">
+    <h1 class="title">2023 신년계획</h1>
+    <p class="msg">2023년에는 이직 하자</p>
+    <div class="row flex-row wrap">
+        <div class="bucket img1-t5 center">코딩 공부하기</div>
+        <div class="bucket img2-t6 center">포토샵 다시 손에 익히기</div>
+        <div class="bucket img2-t3 center">일러레 손에 익히기</div>
+        <div class="bucket img1-t4 center">포트폴리오 만들기</div>
+        <div class="bucket img1-t2 center">자소서 쓰기</div>
+        <div class="bucket img2-t5 center">이직 성공하기</div>
+    </div>
+
+</body>
+
 </html>
